@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      body {
+        color: white;
+        background-color: black;
+        font-family: sans-serif;
+      }
+      h1 {
+        color: red;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./back.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        min-height: 100vh;
+      }
+      .header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        width: 60%;
+        text-align: center;
+      }
+      .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+      }
+      .des {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      .search-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+      }
+      .search-header {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .search-bar {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        border: 1px solid rgb(253, 186, 2);
+      }
+      .search-input {
+        width: 100%;
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: rgb(214, 214, 214);
+      }
+      .icon {
+        margin-right: 0.5rem;
+      }
+      .button-container {
+        margin-top: 20px;
+      }
+      button {
+        background-color: #0068b8;
+        color: white;
+        width: 200px;
+        border: none;
+        outline: none;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0 1rem;
+      }
+      a {
+        color: #74c0fc;
+        text-decoration: none;
+      }
+      .offbutton {
+        background-color: #00ad42;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 0.25rem 0.25rem;
+        font-size: 1rem;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 1rem;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        Trình rút ngắn URL của PTIT Logger - Đăng nhập và theo dõi địa chỉ IP
+      </div>
+      <div class="detail">
+        <div class="des">
+          PTIT Logger là Công cụ rút ngắn URL với các phân tích nâng cao về lưu
+          lượng truy cập thông qua các liên kết, khách truy cập trên cửa hàng
+          trực tuyến, blog hoặc trang web của bạn. Với các dịch vụ trực tuyến
+          IPLogger, bạn có thể tìm địa chỉ IP của riêng mình, tìm vị trí địa chỉ
+          IP và theo dõi vị trí chính xác của bất kỳ thiết bị di động hoặc PC
+          nào, kiểm tra URL để tìm các chuyến hướng ấn vì lý do an toàn. Có một
+          số cách để thu thập phân tích chỉ tiết và theo dõi địa chỉ IP: liên
+          kết ngân, pixel võ hình, công cụ ghi nhật ký địa lý độc đáo và sử dụng
+          trình theo dõi URL. Bạn có thể sử dụng bẫy IP hoàn toàn hợp pháp bâng
+          cách sử dụng công nghệ được cấp bằng sáng chế độc đáo của chúng tôi để
+          thu thập sự đồng ý của người dùng.
+        </div>
+        <div class="search-container">
+          <div class="search-header">
+            Tạo liên kết mới, URL theo dõi hoặc điện thoại di động
+          </div>
+          <div class="search-bar">
+            <div class="icon"><i class="fa-solid fa-globe fa-lg" style="color: #74C0FC;"></i></div>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Nhập URL, số điện thoại hoặc mã theo dõi hợp lệ"
+            />
+          </div>
+          <div class="search-detail" style="font-size: 12px;">
+            Bằng cách tạo 1 trình ghi nhật ký, bạn đồng ý với
+            <a href="">các điều khoản</a> và
+            <a href="">chính sách quyền riêng tư của chúng tôi</a>
+          </div>
+          <div class="button-container">
+            <button>Tạo một liên kết ngắn</button>
+            <button>Đó là mã theo dõi</button>
+          </div>
+          <div class="footer">
+            <div class="up">
+                <i class="fa-solid fa-arrow-right fa-2xl" style="color: #63E6BE;"></i>
+                <button class="offbutton">Tắt quảng cáo</button>
+                <i class="fa-solid fa-arrow-left fa-2xl" style="color: #63E6BE;"></i>
+            </div>
+            <div class="down" style="margin-top: 20px;"><i class="fa-solid fa-angles-down fa-2xl" style="color: #d14d01;"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
